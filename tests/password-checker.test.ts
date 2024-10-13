@@ -1,6 +1,6 @@
 import { calculatePasswordStrength } from '../src/calculate-password-strength'
 
-
+// Homework 8. Password checker
 test('password strength very weak', () => {
     expect(calculatePasswordStrength('password')).toBe('Very Weak');
 });
